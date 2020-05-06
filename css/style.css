@@ -1,0 +1,62 @@
+body{
+    background-color: #142d5f;
+}
+
+.wrapper{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header_content{
+    background-color: #F7F7F7;
+    height: 123px;
+    border-top: 7px solid #142D5F;
+}
+
+.langs{
+    width: 16px;
+    height: 16px;
+}
+
+.search{
+    margin-top: 10px;
+}
+
+.account_left{
+    padding: 0 18px;
+}
+
+.login a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header_button{
+    width: 137px;
+    height: 33px;
+    margin-top: 16px;
+    padding: 0 5px;
+    background-color: #C4D600;
+    line-height: 33px;
+    border-radius: 3px;
+}
+.cart{
+    color: #fff;
+    background-color: #C4D600;
+}
+
+.fav{
+    color: #142D5F;
+    background-color: #E1E1E1;
+}
+
+.menu{
+    height: 70px;
+    color: #000;
+}
+
+nav.menu a{
+    color: #000;
+    text-decoration: none;
+    padding: 12px 15px;
+}
