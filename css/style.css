@@ -1,5 +1,6 @@
 body{
     background-color: #142d5f;
+    font: 14px "Open Sans",sans-serif;
 }
 
 .wrapper{
@@ -20,6 +21,15 @@ body{
 
 .search{
     margin-top: 10px;
+}
+
+form.search > input.form-control{
+    width: 252px;
+    height: 33px;
+    line-height: 18px;
+    padding: 4px 0 4px 6px;
+    background-color: #EFF8FA;
+    outline: none;
 }
 
 .account_left{
@@ -50,13 +60,29 @@ body{
     background-color: #E1E1E1;
 }
 
-.menu{
-    height: 70px;
-    color: #000;
+ul.nav {
+    margin: 14px auto 0 auto;
 }
 
-nav.menu a{
+.nav > .nav-item {
+    padding: 12px 15px;
+}
+
+.nav > .nav-item > a{
     color: #000;
     text-decoration: none;
-    padding: 12px 15px;
+    font-size: 18px;
+}
+
+.nav > .nav-item > a:hover{
+    color: #C4D600;
+    text-decoration: none;
+}
+
+div.carousel, div.carousel-inner, div.carousel-item{
+    max-height: 569px !important;
+}
+
+div.carousel{
+    margin-bottom: 25px;
 }
