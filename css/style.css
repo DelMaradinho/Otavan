@@ -86,3 +86,23 @@ div.carousel, div.carousel-inner, div.carousel-item{
 div.carousel{
     margin-bottom: 25px;
 }
+
+div.popular > h3{
+    display: inline-block;
+    margin-bottom: 28px;
+    padding: 0 18px 8px 18px;
+    border-bottom: 1px solid rgba(247,247,247,1);
+}
+
+.product_card{
+    margin-right: 13px;
+}
+
+.product_card > img{
+    background-color: #F7F7F7;
+    margin-bottom: 10px;
+}
+
+.product_card:last-of-type{
+    margin-right: 0;
+}
