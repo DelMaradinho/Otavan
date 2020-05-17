@@ -24,15 +24,12 @@ body{
 }
 
 form.search > input.form-control{
-    width: 252px;
-    height: 33px;
-    line-height: 18px;
     padding: 4px 0 4px 6px;
     background-color: #EFF8FA;
     outline: none;
 }
 
-account{
+.account{
     font-size: 14px;
 }
 
