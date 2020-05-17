@@ -10,7 +10,7 @@ body{
 }
 .header_content{
     background-color: #F7F7F7;
-    height: 123px;
+    min-height: 123px;
     border-top: 7px solid #142D5F;
 }
 
@@ -32,8 +32,19 @@ form.search > input.form-control{
     outline: none;
 }
 
+account{
+    font-size: 14px;
+}
+
 .account_left{
     padding: 0 18px;
+}
+
+div.logo > img{
+    max-width: 320px;
+    max-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .login a{
