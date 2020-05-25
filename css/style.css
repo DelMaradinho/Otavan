@@ -121,3 +121,54 @@ div.popular > h3{
     width: 180px;
     height: 70px;
 }
+
+.main_footer{
+    background-color: #14224A;
+    height: auto;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.main_footer a{
+    color: #c4d600;
+}
+
+.main_footer .topic {
+    color: #9EA5B5;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.contacts > p {
+    color: white;
+}
+
+input.sub_email{
+    height: 29px;
+    background-color: #14224A;
+    line-height: 29px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.sub_button{
+    width: 117px;
+    height: 29px;
+    margin-right: 10px;
+    background-color: #C4D600;
+    line-height: 29px;
+    border-radius: 3px;
+}
+
+.footer_nav{
+    column-count: 2;
+    column-gap: 3px;
+    column-width: 110px;
+}
+
+.copyright{
+    background-color: #142D5F;
+    height: 48px;
+    line-height: 48px;
+    color: #9EA9BD;
+}
