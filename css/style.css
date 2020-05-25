@@ -106,3 +106,18 @@ div.popular > h3{
 .product_card:last-of-type{
     margin-right: 0;
 }
+
+.partners{
+    background-color: #F7F7F7;
+    height: auto;
+    padding: 20px 0;
+}
+
+.partner_logo {
+    padding: 0 15px;
+}
+
+.partner_logo > a > img {
+    width: 180px;
+    height: 70px;
+}
