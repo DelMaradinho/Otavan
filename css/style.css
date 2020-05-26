@@ -163,7 +163,7 @@ input.sub_email{
 .footer_nav{
     column-count: 2;
     column-gap: 3px;
-    column-width: 110px;
+    column-width: 100px;
 }
 
 .copyright{
