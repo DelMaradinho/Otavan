@@ -26,14 +26,25 @@ body{
 
 .search{
     margin-top: 10px;
+    position: relative;
 }
 
 form.search > input.form-control{
-    background-color: #EFF8FA;
+    background-color: #fff;
+    border: none;
+    outline: none;
 }
 
-.account_left{
-    padding: 0 18px;
+form > i.fas{
+    position: absolute;
+    color: #C4D600;
+    top: 11px;
+    right: 5%;
+    font-size: 1.2rem;
+}
+
+.right{
+    min-width: 330px;
 }
 
 .login a{
@@ -44,7 +55,6 @@ form.search > input.form-control{
 .header_button{
     width: 137px;
     height: 33px;
-    margin-top: 16px;
     padding: 0 5px;
     background-color: #C4D600;
     line-height: 33px;
