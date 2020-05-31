@@ -131,8 +131,12 @@ div.popular > h3{
     border-bottom: 1px solid rgba(247,247,247,1);
 }
 
+.products{
+    margin-bottom: 20px;
+}
+
 .product_card{
-    margin-right: 13px;
+    max-width: 300px;
 }
 
 .product_card > img{
@@ -140,8 +144,18 @@ div.popular > h3{
     margin-bottom: 10px;
 }
 
-.product_card:last-of-type{
-    margin-right: 0;
+.short_info h4{
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+.short_info h4, .short_info p{
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+.model_vendor_code{
+    opacity: 0.4;
 }
 
 .partners{
